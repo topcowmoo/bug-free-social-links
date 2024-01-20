@@ -4,6 +4,7 @@
     border: none;
     cursor: pointer;
     transition: background-color 0.5s, color 0.5s;
+    width: auto;
 }
 
 .custom-btn:hover {
@@ -33,7 +34,28 @@ body {
     background-color: hsl(0, 0%, 8%);
 }
 
-.attribution {
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
     color: hsl(0, 0%, 100%);
+    margin-bottom: 100px;
 }
 
+.attribution a { 
+    color: hsl(0, 0%, 100%); 
+}
+
+.img-avatar {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+}
+
+.container-lg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
