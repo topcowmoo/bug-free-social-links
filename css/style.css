@@ -1,0 +1,39 @@
+.custom-btn {
+    background: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.custom-btn:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.card-title {
+    font-size: 43px;
+}
+
+.sub-title {
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+}
+
+.card {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 12%)
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+.attribution {
+    color: hsl(0, 0%, 100%);
+}
+
