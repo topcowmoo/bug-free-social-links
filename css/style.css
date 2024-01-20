@@ -5,6 +5,7 @@
     cursor: pointer;
     transition: background-color 0.5s, color 0.5s;
     width: auto;
+    padding: 13px;
 }
 
 .custom-btn:hover {
@@ -14,6 +15,8 @@
 
 .card-text {
     font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
 
 .card-title {
@@ -27,18 +30,30 @@
 
 .card {
     color: hsl(0, 0%, 100%);
-    background-color: hsl(0, 0%, 12%)
+    background-color: hsl(0, 0%, 12%);
+    width: 100%; /* Set the width to 100% */
+    height: 100%; /* Set the height to 100% */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 }
 
 body {
     background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
 
 .attribution { 
     font-size: 11px; 
     text-align: center;
     color: hsl(0, 0%, 100%);
-    margin-bottom: 100px;
+    margin-top: 25px;
 }
 
 .attribution a { 
@@ -56,6 +71,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: auto;
     margin: 0;
+    width: auto;
+    border-radius: 10px; /* You can adjust the value to control the roundness */
+    overflow: hidden;
 }
+
+/* Add this style to the CSS */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+  
