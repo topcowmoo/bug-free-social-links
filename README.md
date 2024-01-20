@@ -35,7 +35,7 @@ Active state:
 
 ### Links
 
-- Solution URL: [https://topcowmoo.github.io/bug-free-social-links/](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/bug-free-social-links-profile-solution-using-bootstrap-t6QbfS9v0I](https://your-solution-url.com)
 - Live Site URL: [https://topcowmoo.github.io/bug-free-social-links/](https://your-solution-url.com)
 
 ## My Process
