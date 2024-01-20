@@ -3,12 +3,19 @@
     color: hsl(0, 0%, 100%);
     border: none;
     cursor: pointer;
-    transition: background-color 0.5s, color 0.5s;
-    width: auto;
+    transition: background-color 0.2s, color 0.2s;
+    width: 315px;
     padding: 13px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
 }
 
 .custom-btn:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+#click-button:active {
     background-color: hsl(75, 94%, 57%);
     color: black;
 }
@@ -17,15 +24,22 @@
     font-size: 14px;
     padding-top: 15px;
     padding-bottom: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }
 
 .card-title {
-    font-size: 43px;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
 }
 
 .sub-title {
     font-size: 14px;
     color: hsl(75, 94%, 57%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    padding-top: 5px;
 }
 
 .card {
@@ -37,7 +51,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 25px;
+    padding-top: 35px;
 }
 
 body {
@@ -57,7 +72,7 @@ body {
 }
 
 .attribution a { 
-    color: hsl(0, 0%, 100%); 
+    color: hsl(75, 94%, 57%); 
 }
 
 .img-avatar {
@@ -74,11 +89,10 @@ body {
     height: auto;
     margin: 0;
     width: auto;
-    border-radius: 10px; /* You can adjust the value to control the roundness */
+    border-radius: 10px;
     overflow: hidden;
 }
 
-/* Add this style to the CSS */
 .wrapper {
     display: flex;
     flex-direction: column;
