@@ -1,3 +1,80 @@
+/* General Styles */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  margin-top: 25px;
+}
+
+.attribution a {
+  color: hsl(75, 94%, 57%);
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Mobile Styles (375px) */
+@media (max-width: 375px) {
+  .custom-btn {
+    width: 100%;
+  }
+  .container-lg {
+    border-radius: 0;
+  }
+}
+
+/* Desktop Styles (1440px) */
+@media (min-width: 1440px) {
+  .container-lg {
+    width: 80%;
+  }
+}
+
+/* Common Styles for Both Mobile and Desktop */
+.card {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 12%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  padding-top: 35px;
+}
+
+.card-text {
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.card-title {
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.container-lg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin: 0;
+  width: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
 .custom-btn {
   background: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 100%);
@@ -15,23 +92,11 @@
   color: black;
 }
 
-#click-button:active {
-  background-color: hsl(75, 94%, 57%);
-  color: black;
-}
-
-.card-text {
-  font-size: 14px;
-  padding-top: 15px;
-  padding-bottom: 5px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-}
-
-.card-title {
-  font-size: 24px;
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
+.img-avatar {
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 50%;
 }
 
 .sub-title {
@@ -42,61 +107,20 @@
   padding-top: 5px;
 }
 
-.card {
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(0, 0%, 12%);
-  width: 100%; /* Set the width to 100% */
-  height: 100%; /* Set the height to 100% */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 25px;
-  padding-top: 35px;
-}
-
-body {
-  background-color: hsl(0, 0%, 8%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin: 0;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  color: hsl(0, 0%, 100%);
-  margin-top: 25px;
-}
-
-.attribution a {
-  color: hsl(75, 94%, 57%);
-}
-
-.img-avatar {
-  width: 100px;
-  height: 100px;
-  border: none;
-  border-radius: 50%;
-}
-
-.container-lg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: auto;
-  margin: 0;
-  width: auto;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
 .wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+/* Active Styles for Buttons */
+#github-button:active,
+#insta-button:active,
+#linkedin-button:active,
+#mentor-button:active,
+#x-button:active {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
 }
